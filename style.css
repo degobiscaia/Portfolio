@@ -1,0 +1,175 @@
+.foto-perfil {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    animation: float 4s ease-in-out infinite;
+}
+
+.corPrimaria {
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    background-blend-mode: multiply,multiply;
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.corSecundaria {
+    background-color: #434343;
+    background-blend-mode: multiply,multiply;
+}
+
+p {
+    font-family: lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black important;
+}
+
+.icons {
+    padding-left: 5px;
+}
+
+.titulosPretos {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.titulosVerdes {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(96, 184, 79);
+}
+
+.textoPreto {
+    color: black !important;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.textoFooter {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+.nav-item1:hover {
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: .5s ease-in-out;
+}
+
+.nav-item2:hover {
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: .5s ease-in-out;
+}
+.nav-item3:hover {
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: .5s ease-in-out;
+}
+.nav-item4:hover {
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: .5s ease-in-out;
+}
+
+.logo-imagem {
+    transition: all 1s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 60px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-50px);
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container1 .card {
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    position: relative;
+    width: 280px;
+    height: 300px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container1 .card .content {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container1 .card:hover .content {
+    transform: translate(0px);
+    opacity: 1;
+}
+
+.container1 .card .content h2 {
+    right: 30px;
+    font-size: 1.8em;
+    color: black;
+    z-index: 1;
+}
+
+.container1 .card .content p {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.979);
+    font-weight: 300;
+} 
+
