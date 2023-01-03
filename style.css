@@ -7,7 +7,7 @@
 }
 
 .corPrimaria {
-    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     background-blend-mode: multiply,multiply;
     margin-bottom: 0px;
     padding-top: 60px;
@@ -64,33 +64,11 @@ html {
     scroll-behavior: smooth !important;
 }
 
+.container {
+    visibility: hidden;
+}
 .nav-item1:hover {
-    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
-    border: none;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: .5s ease-in-out;
-}
-
-.nav-item2:hover {
-    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
-    border: none;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: .5s ease-in-out;
-}
-.nav-item3:hover {
-    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
-    border: none;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: .5s ease-in-out;
-}
-.nav-item4:hover {
-    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     border: none;
     display: inline-block;
     text-decoration: none;
@@ -123,53 +101,4 @@ html {
     box-sizing: border-box;
 }
 
-.container1 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    flex-wrap: wrap;
-    z-index: 1;
-}
-
-.container1 .card {
-    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
-    position: relative;
-    width: 280px;
-    height: 300px;
-    margin: 30px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.container1 .card .content {
-    padding: 20px;
-    text-align: center;
-    transform: translateY(100px);
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.container1 .card:hover .content {
-    transform: translate(0px);
-    opacity: 1;
-}
-
-.container1 .card .content h2 {
-    right: 30px;
-    font-size: 1.8em;
-    color: black;
-    z-index: 1;
-}
-
-.container1 .card .content p {
-    font-size: 1em;
-    color: rgba(0, 0, 0, 0.979);
-    font-weight: 300;
-} 
 
